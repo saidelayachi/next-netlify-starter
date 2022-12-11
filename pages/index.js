@@ -13,7 +13,10 @@ export default function Home() {
       <main>
         <Header title="Welcome Babe" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <br><br>
+          <div>
+          <input>Write something here </input>
+          </div>
         </p>
       </main>
 
