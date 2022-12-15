@@ -13,14 +13,16 @@ export default function Home() {
       <main>
         <Header title="Welcome Babe" />
         <p className="description">
-          <ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
+
     
           <div>
-          <input>Write something here </input>
+          <form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
           </div>
         </p>
       </main>
