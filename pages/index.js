@@ -13,7 +13,12 @@ export default function Home() {
       <main>
         <Header title="Welcome Babe" />
         <p className="description">
-          <br><br>
+          <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+    
           <div>
           <input>Write something here </input>
           </div>
