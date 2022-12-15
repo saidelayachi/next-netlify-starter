@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome Babe" />
+        <Header title="Welcome sweety" />
         <p className="description"></p>
 
   <form action="/action_page.php">
